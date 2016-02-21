@@ -81,8 +81,8 @@ public class RosterTest {
 	 * 
 	 * Approach 5: Specify Search Criteria Code with a Lambda Expression
 	 * 
-	 * printPersonsWithPredicate(roster, p -> p.getGender() == Person.Sex.MALE
-	 * && p.getAge() >= 18 && p.getAge() <= 25);
+	 * printPersons(roster, p -> p.getGender() == Person.Sex.MALE && p.getAge()
+	 * >= 18 && p.getAge() <= 25);
 	 * 
 	 * 
 	 * @param roster
@@ -100,6 +100,7 @@ public class RosterTest {
 	 * Approach 6: Use Standard Functional Interfaces with Lambda Expressions
 	 * 
 	 * INFO: cannot be named as printPersons because, same as approach 5.
+	 * 
 	 * printPersonsWithPredicate(roster, p -> p.getGender() == Person.Sex.MALE
 	 * && p.getAge() >= 18 && p.getAge() <= 25);
 	 * 
